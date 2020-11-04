@@ -1,5 +1,5 @@
 body{
-	background-color: #337748; 
+	background-color: #006d22; 
 }
 #logo{
 	width: 45%;
@@ -15,8 +15,10 @@ h3{
 	color: white;
 }
 #mapqo{
-	width: 99%;
+	width: 97%;
 	height: 500px;
+	border-radius: 10px;
+	box-shadow:12px 12px 22px rgba(0,0,0,0.2);
 }
 
 footer p{
@@ -57,7 +59,7 @@ footer{
 	
 }
 .social-icons i,.social i{
-	color:#000000;
+	color:#006d22;
 }
 .social-icons a:hover{
 	background-color:#000000;
@@ -66,7 +68,7 @@ footer{
 }
 .social-icons a:hover i,
 .social a:hover i{
-	color:#FFFFFF;
+	color:#006d22;
 	transition:all ease 0.5s;
 }
 .social{
@@ -94,5 +96,72 @@ footer{
 }
 .social i{
 	font-size:20px;
-	color:#2B2B2B;
+	color:#006d22;
+}
+.fot{
+	background-color: #006d22;
+}
+a.ex4:hover, a.ex4:active {
+	font-family: Underdog;
+	font-size: 35px;
+	-webkit-text-stroke: 2px black;
+	color: green;
+	text-decoration: none;
+}
+button{
+	text-decoration: none;
+	color: white;
+	font-family: Comfortaa;
+	font-size: 25px;
+}
+.header{
+	align-items: center;
+}
+#aa{
+	font-family: Pacifico;
+}
+button{
+	padding: 10px;
+	background-color: transparent;
+	border: dashed;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.names{
+	font-family: Underdog;
+	font-size: 60px;
+}
+.zakaz{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(10%)
+}
+.zakaz a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-right: 78px;
+	padding: 0px;
+	line-height:0px;
+}
+.zakaz button{
+	font-size: 40px;
+	background-color: green;
+	opacity: 60%;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px; 
+}
+.zakaz button:hover{
+	font-size: 40px;
+		color: black;
+		
+}
+.zakaz a:hover{
+	background-color:#000000;
+
+	transition:all ease 0.5s;
 }
