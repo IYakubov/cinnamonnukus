@@ -162,10 +162,12 @@ a{
 }
 .zakaz a:hover{
 	background-color:#000000;
-
+   -webkit-border-top-left-radius: 40px;
+     -webkit-border-bottom-left-radius: 40px;
+  -moz-border-bottom-left-radius: 40px;
 	transition:all ease 0.5s;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
 a.ex4:hover, a.ex4:active {
 	font-family: Underdog;
 	font-size: 65px;
