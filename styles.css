@@ -158,10 +158,25 @@ a{
 .zakaz button:hover{
 	font-size: 40px;
 		color: black;
-		
+
 }
 .zakaz a:hover{
 	background-color:#000000;
 
 	transition:all ease 0.5s;
+}
+@media screen and (max-width: 900px){
+a.ex4:hover, a.ex4:active {
+	font-family: Underdog;
+	font-size: 65px;
+	-webkit-text-stroke: 2px black;
+	color: green;
+	text-decoration: none;
+}
+button{
+	text-decoration: none;
+	color: white;
+	font-family: Comfortaa;
+	font-size: 55px;
+}
 }
