@@ -22,12 +22,13 @@ h3{
 }
 
 footer p{
-	font-family: calibri;
+	font-family: Comfortaa;
+	color: white
 }
 footer p:nth-child(1){
 	font-size: 30px;
 	font-weight:bold;
-	color:#191919;
+
 	line-height:10px;
 }
 footer p:nth-child(2){
@@ -44,7 +45,7 @@ footer{
 	justify-content: center;
 	position: relative;
 }
-.social-icons a{
+.social-icons #sp{
 	width:40px;
 	height:40px;
 	display: flex;
@@ -61,13 +62,14 @@ footer{
 .social-icons i,.social i{
 	color:#006d22;
 }
-.social-icons a:hover{
+.social-icons #sp:hover{
 	background-color:#000000;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	transition:all ease 0.5s;
 }
-.social-icons a:hover i,
+.social-icons #sp:hover i,
 .social a:hover i{
+
 	color:#006d22;
 	transition:all ease 0.5s;
 }
@@ -117,6 +119,11 @@ button{
 .header{
 	align-items: center;
 }
+h4{
+	font-family: Pacifico;
+	font-size: 30px;
+	color: white;
+}
 #aa{
 	font-family: Pacifico;
 }
@@ -131,18 +138,18 @@ a{
 }
 .names{
 	font-family: Underdog;
-	font-size: 60px;
+	font-size: 40px;
 }
 .zakaz{
 	position: fixed;
-	top:50%;
+	top:61%;
 	right:0px;
 	transform:translateY(10%)
 }
 .zakaz a{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+
 	
 	margin-right: 78px;
 	padding: 0px;
@@ -150,7 +157,7 @@ a{
 }
 .zakaz button{
 	font-size: 40px;
-	background-color: green;
+	background-color: #00CDFF;
 	opacity: 60%;
 	border-top-left-radius: 40px;
 	border-bottom-left-radius: 40px; 
@@ -168,17 +175,64 @@ a{
 	transition:all ease 0.5s;
 }
 @media screen and (max-width: 1200px){
-a.ex4:hover, a.ex4:active {
-	font-family: Underdog;
-	font-size: 65px;
-	-webkit-text-stroke: 2px black;
-	color: green;
-	text-decoration: none;
+
+#logo{
+	width: 60%;
 }
-button{
-	text-decoration: none;
+}
+#ll p{
 	color: white;
-	font-family: Comfortaa;
-	font-size: 55px;
+	font-family: Amatic SC;
+	font-size: 35px;
+	letter-spacing: 1px;
+
 }
+.cofe{
+	background-color: #179C4E;
+	box-shadow:12px 12px 22px rgba(0,0,0,0.2);
 }
+
+.birbale {background-color: green;
+position: fixed;
+font-family: Amatic SC;
+	top:61%;
+	left:0px;
+	transform:translateY(-651%);
+	box-shadow:12px 12px 22px rgba(0,0,0,0.2);
+    opacity: 80%;
+    margin-right: 50px;
+}
+.birbale a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  display:inline-block;
+}
+.birbale #idk {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
