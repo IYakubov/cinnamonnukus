@@ -172,7 +172,6 @@ a{
 	transition:all ease 0.5s;
 }
 @media screen and (max-width: 1200px){
-
 #logo{
 	width: 60%;
 }
@@ -237,3 +236,29 @@ ul li ul li {
 }
 ul li ul li a {display:block !important;} 
 ul li ul li:hover {background: #666;}
+@media screen and (max-width: 1000px){
+	.birbale {background-color: green;
+position: fixed;
+font-family: Amatic SC;
+	top:61%;
+	left:0px;
+	transform:translateY(-851%);
+	box-shadow:12px 12px 22px rgba(0,0,0,0.2);
+    margin-right: 50px;
+}
+.birbale a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  padding: 15px;
+  display:inline-block;
+}
+.birbale #idk {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  padding: 15px;
+  display:inline-block;
+}
+}
