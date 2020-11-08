@@ -245,6 +245,7 @@ font-family: Amatic SC;
 	transform:translateY(-851%);
 	box-shadow:12px 12px 22px rgba(0,0,0,0.2);
     margin-right: 50px;
+margin-left: 10px;
 }
 .birbale a {
   text-decoration: none;
