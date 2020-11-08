@@ -177,6 +177,11 @@ a{
 	width: 60%;
 }
 }
+#ll{
+	background-color: #0B8E26;
+	box-shadow:12px 12px 22px rgba(0,0,0,0.2);
+	padding:10px;
+}
 #ll p{
 	color: white;
 	font-family: Amatic SC;
