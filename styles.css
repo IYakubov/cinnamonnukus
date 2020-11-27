@@ -401,10 +401,10 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-
-@@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1250px) {
 .flip-card {
-	left: 7%;
+
+	left: 15%;
 
 }
 }
